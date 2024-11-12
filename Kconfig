@@ -1,0 +1,6 @@
+config ABMT_ADC_BUFFER_SIZE
+	int	"ADC buffer size"
+	range 1 120
+	default 120
+
+source "Kconfig.zephyr"
